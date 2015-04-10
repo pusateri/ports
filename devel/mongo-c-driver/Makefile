@@ -17,7 +17,6 @@ CONFIGURE_ARGS+=	--enable-sasl=yes
 USE_GITHUB=	yes
 GH_ACCOUNT=	mongodb
 GH_PROJECT=	${PORTNAME}
-#GH_TAGNAME=	${PORTVERSION}
 
 WRKSRC=		${WRKDIR}/mongodb-mongo-c-driver-0678587
 USES=		gmake pkgconfig
@@ -28,5 +27,7 @@ USE_LDCONFIG=	yes
 
 pre-configure:
 	cd ${WRKSRC} && ./autogen.sh
+
+MAKE_ARGS=      pkgconfigdir="${PREFIX}/libdata/pkgconfig"
 
 .include <bsd.port.mk>

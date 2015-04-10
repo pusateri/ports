@@ -88,9 +88,9 @@ lib/libmongoc-priv.la
 lib/libmongoc-priv.so
 lib/libmongoc-priv.so.0
 lib/libmongoc-priv.so.0.0.0
-lib/pkgconfig/libmongoc-1.0.pc
-lib/pkgconfig/libmongoc-priv.pc
-lib/pkgconfig/libmongoc-ssl-1.0.pc
+libdata/pkgconfig/libmongoc-1.0.pc
+libdata/pkgconfig/libmongoc-priv.pc
+libdata/pkgconfig/libmongoc-ssl-1.0.pc
 %%PORTDOCS%%%%DOCSDIR%%/COPYING
 %%PORTDOCS%%%%DOCSDIR%%/NEWS
 %%PORTDOCS%%%%DOCSDIR%%/README.rst
