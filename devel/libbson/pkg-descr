@@ -1,0 +1,9 @@
+A BSON utility library. BSON, short for Binary JSON, is a binary-encoded serialization of JSON-like documents.
+
+https://github.com/mongodb/libbson
+
+Mongo (from "humongous") is a high-performance, open source,
+schema-free, document-oriented database. A common name in the
+"NOSQL" community.
+
+WWW: http://www.mongodb.org/
