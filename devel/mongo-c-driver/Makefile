@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	mongo-c-driver
-PORTVERSION=	1.1.4
+PORTVERSION=	1.1.6
 CATEGORIES=	devel
 
 MAINTAINER=	waitman@waitman.net
