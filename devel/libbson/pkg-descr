@@ -1,4 +1,5 @@
-A BSON utility library. BSON, short for Binary JSON, is a binary-encoded serialization of JSON-like documents.
+A BSON utility library. BSON, short for Binary JSON, is a binary-encoded
+serialization of JSON-like documents.
 
 https://github.com/mongodb/libbson
 

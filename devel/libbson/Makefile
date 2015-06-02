@@ -6,7 +6,9 @@ PORTVERSION=	1.1.6
 CATEGORIES=	devel
 
 MAINTAINER=	waitman@waitman.net
-COMMENT=	A BSON utility library
+COMMENT=	BSON utility library
+
+LICENSE=	APACHE20
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	mongodb
