@@ -16,9 +16,7 @@ GH_ACCOUNT=	atom:libchromiumcontent \
 GH_PROJECT=	libchromiumcontent:libchromiumcontent \
 		freebsd-chromium:freebsd-chromium
 GH_TAGNAME=	${DISTVERSIONPREFIX}${PORTVERSION}-${GH_ACCOUNT}-${DISTVERSIONSUFFIX}:libchromiumcontent \
-		v38:freebsd-chromium
-MASTER_SITES=	${GH_ACCOUNT}/${GH_PROJECT}/archive:freebsd-chromium
-DISTFILES=	${GH_TAGNAME}.tar.gz:freebsd-chromium
+		418e996e3a:freebsd-chromium
 
 CFLAGS+=        -isystem${LOCALBASE}/include
 
