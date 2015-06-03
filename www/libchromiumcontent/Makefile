@@ -4,19 +4,16 @@
 PORTNAME=	libchromiumcontent
 PORTVERSION=	43.0.2357.65
 DISTVERSIONPREFIX=      v
-DISTVERSIONSUFFIX=      1
+DISTVERSIONSUFFIX=      -atom-1
 CATEGORIES=	www
 
 MAINTAINER=	pusateri@bangj.com
 COMMENT=	Shared library build of Chromium's Content module
 
 USE_GITHUB=	yes
-GH_ACCOUNT=	atom:libchromiumcontent \
-		gliaskos:freebsd-chromium
-GH_PROJECT=	libchromiumcontent:libchromiumcontent \
-		freebsd-chromium:freebsd-chromium
-GH_TAGNAME=	${DISTVERSIONPREFIX}${PORTVERSION}-${GH_ACCOUNT}-${DISTVERSIONSUFFIX}:libchromiumcontent \
-		418e996e3a:freebsd-chromium
+GH_ACCOUNT=	atom gliaskos:freebsd_chromium
+GH_PROJECT=	freebsd-chromium:freebsd_chromium
+GH_TAGNAME=	b715e82:freebsd_chromium
 
 CFLAGS+=        -isystem${LOCALBASE}/include
 
