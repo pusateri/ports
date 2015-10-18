@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	mongo-c-driver
-PORTVERSION=	1.1.6
+PORTVERSION=	1.1.9
 CATEGORIES=	devel
 
 MAINTAINER=	waitman@waitman.net
@@ -22,6 +22,7 @@ USES=		gmake pkgconfig
 USE_AUTOTOOLS=	autoconf automake
 GNU_CONFIGURE=	yes
 
+LDFLAGS+=       -pthread
 USE_LDCONFIG=	yes
 
 pre-configure:
