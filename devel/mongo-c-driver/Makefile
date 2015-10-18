@@ -18,15 +18,12 @@ CONFIGURE_ARGS+=	--enable-sasl=yes
 USE_GITHUB=	yes
 GH_ACCOUNT=	mongodb
 
-USES=		gmake pkgconfig
-USE_AUTOTOOLS=	autoconf automake
+USES=		gmake pkgconfig autoreconf libtool
 GNU_CONFIGURE=	yes
 
 LDFLAGS+=       -pthread
+INSTALL_TARGET=	install-strip
 USE_LDCONFIG=	yes
-
-pre-configure:
-	cd ${WRKSRC} && ./autogen.sh
 
 MAKE_ARGS=      pkgconfigdir="${PREFIX}/libdata/pkgconfig"
 

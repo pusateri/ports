@@ -80,11 +80,9 @@ include/libmongoc-1.0/op-msg.def
 include/libmongoc-1.0/op-query.def
 include/libmongoc-1.0/op-reply.def
 include/libmongoc-1.0/op-update.def
-lib/libmongoc-1.0.la
 lib/libmongoc-1.0.so
 lib/libmongoc-1.0.so.0
 lib/libmongoc-1.0.so.0.0.0
-lib/libmongoc-priv.la
 lib/libmongoc-priv.so
 lib/libmongoc-priv.so.0
 lib/libmongoc-priv.so.0.0.0
